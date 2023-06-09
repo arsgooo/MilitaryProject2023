@@ -1,0 +1,44 @@
+.content {
+  text-align: center;
+  margin-top: 0.7vw;
+  color: #c5e0ca;
+  font-size: 1.3vw;
+}
+.centeredtext {
+  color: #fdda96;
+  font-size: 1.2vw;
+  left: 2.5vw;
+  font-weight: 300;
+  font-style: italic;
+  padding-left: 2.5vw; /* Встановлення відступу зліва */
+}
+
+.column {
+  /*КОЛОНКИ*/
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  text-align: center;
+  margin: 0.3vw;
+  padding-left: 1vw;
+}
+
+.column img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20vw;
+  max-width: 20vw;
+  padding-left: 5vw;
+}
+
+.column h2 {
+  font-size: 1.2vw;
+  margin-top: 0.3vw;
+  color: #c5e0ca;
+}
+
+.column p {
+  font-size: 1.2vw;
+  margin-top: 0.2vw;
+  color: #fdda96;
+}

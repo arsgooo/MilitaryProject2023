@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="card" *ngFor="let sol of solList">
+    <div class=" photo">
+      <img src="{{sol.photo}}">
+    </div>
+    <div class="content">
+      <h2>{{sol.name}} {{sol.surname}}</h2>
+      <p>{{sol.age}}</p>
+      <div class="have_butt" style="width: 100%;">
+        <div style="width: 40%;"><button>Одяг</button> <input type="checkbox" checked disabled
+            value="{{sol.clothes}}"><br></div>
+        <div style="width: 40%;"><button>Взуття</button> <input type="checkbox" checked disabled value="{{sol.boots}}">
+          <br>
+        </div>
+        <div style="width: 40%;"><button>Шолом</button> <input type="checkbox" disabled value="{{sol.helmet}}"> <br>
+        </div>
+        <div style="width: 40%;"><button>Бронежилет</button> <input type="checkbox" disabled value="{{sol.armor}}"> <br>
+        </div>
+      </div>
+      <div class="updel">
+        <button>Оновити</button>
+        <button>Видалити</button>
+      </div>
+    </div>
+  </div>
+  <app-update-soldier-page [soldier]="selectedSoldier" (updated)="updateSoldiers()"></app-update-soldier-page>
+</div>

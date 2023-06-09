@@ -1,0 +1,52 @@
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  background-color: #042107;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-container label {
+  font-family: "Inter", sans-serif;
+  margin-bottom: -10px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 0;
+  color: #c5e0ca;
+}
+form {
+  text-align: center;
+  color: #fce4b3;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input[type="text"],
+input[type="ask"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.ask {
+  height: 170px;
+}
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #08400d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+}
+
+button:hover {
+  background-color: #66ac6b;
+}

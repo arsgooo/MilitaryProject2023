@@ -1,0 +1,123 @@
+h2 {
+  font-family: "Lato", sans-serif;
+  color: #fce4b3;
+  text-shadow: -0.1vw -0.1vw 0 #000, 0.1vw -0.1vw 0 #000, -0.1vw 0.1vw 0 #000,
+    0.1vw 0.1vw 0 #000;
+}
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+.name {
+  text-align: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #33c58e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  background: linear-gradient(105deg, #000, #042107, transparent);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo:hover {
+  box-shadow: 0 0 5px 5px rgba(255, 255, 255, 0.5); /* Підсвічування рамки при наведенні */
+}
+
+.content {
+  margin-top: 20px;
+}
+
+h2 {
+  margin: 0;
+}
+p {
+  margin: 5px 0;
+}
+button {
+  padding: 10px 20px;
+  background-color: #686161;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+}
+button:hover {
+  background-color: #433f40;
+  color: white;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #33c58e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-right: 20px;
+  background: linear-gradient(105deg, #000, #41e975, transparent);
+}
+.card {
+  width: 300px;
+  height: 100%;
+  margin: 20px 20px 20px 35px;
+  display: flex;
+  flex-direction: column;
+  background-color: #33c58e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background: linear-gradient(105deg, #000, #41e975, transparent);
+}
+.container {
+  display: flex;
+}
+button + button {
+  margin-top: 20px;
+}
+.updel button {
+  margin: 30px 10px;
+  height: 30px;
+  width: 90px;
+  text-align: center;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(18, 98, 16);
+}
+.updel button:hover {
+  background-color: #58933b;
+}
+.have_butt {
+  display: grid;
+  grid-template-columns: 100px 100px;
+}

@@ -1,0 +1,34 @@
+<div class="form-container" *ngIf="soldier">
+  <h2>Форма “Оновити військового”</h2>
+  <form>
+    <input type="hidden" [(ngModel)]="soldier.id">
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" [(ngModel)]="soldier.name">
+    <label for="lastname">Прізвище:</label>
+    <input type="text" id="lastname" [(ngModel)]="soldier.surname">
+    <label for="age">Вік:</label>
+    <input type="text" id="age" [(ngModel)]="soldier.age">
+    <label for="file">Фото:</label>
+    <input type="text" id="file" name="file" multiple [(ngModel)]="soldier.photo">
+    <h3>Вкажіть потреби:</h3>
+    <div class="checkbox-grid">
+      <div>
+        <input type="checkbox" name="vehicle1" value="Одяг" [(ngModel)]="soldier.clothes">
+        <label for="vehicle1">Одяг</label>
+      </div>
+      <div>
+        <input type="checkbox" name="vehicle2" value="Шолом" [(ngModel)]="soldier.helmet">
+        <label for="vehicle2">Шолом</label>
+      </div>
+      <div>
+        <input type="checkbox" name="vehicle3" value="Взуття" [(ngModel)]="soldier.boots">
+        <label for=" vehicle3">Взуття</label>
+      </div>
+      <div>
+        <input type="checkbox" name="vehicle4" value="Бронежилет" [(ngModel)]="soldier.armor">
+        <label for="vehicle4">Бронежилет</label>
+      </div>
+    </div>
+    <button type="button">Оновити</button>
+  </form>
+</div>
